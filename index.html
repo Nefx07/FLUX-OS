@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUX OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="desktop" id="desktop">
+
+        <header class="desktop-header">
+            <div class="brand">
+                <span class="brand-icon">✳</span>
+                <span>FLUX OS</span>
+            </div>
+
+            <div class="header-message" id="greeting">
+                Your computer is doing its best.
+            </div>
+        </header>
+
+        <section class="desktop-icons" aria-label="Desktop applications">
+            <button class="desktop-icon" data-app="files">
+                <span class="app-icon">📁</span>
+                <span>My Files</span>
+            </button>
+
+            <button class="desktop-icon" data-app="notes">
+                <span class="app-icon">📝</span>
+                <span>Notes</span>
+            </button>
+
+            <button class="desktop-icon" data-app="browser">
+                <span class="app-icon">🌐</span>
+                <span>Browser</span>
+            </button>
+
+            <button class="desktop-icon" data-app="games">
+                <span class="app-icon">🎮</span>
+                <span>Games</span>
+            </button>
+
+            <button class="desktop-icon" data-app="settings">
+                <span class="app-icon">⚙️</span>
+                <span>Settings</span>
+            </button>
+
+            <button class="desktop-icon" data-app="about">
+                <span class="app-icon">🐣</span>
+                <span>About FLUX</span>
+            </button>
+        </section>
+
+        <section class="window-area" id="windowArea"></section>
+
+        <div class="notification" id="notification" role="status"></div>
+
+        <footer class="taskbar">
+            <button class="start-button" id="startButton">
+                <span>✳</span>
+                <span>Start</span>
+            </button>
+
+            <div class="taskbar-apps" id="taskbarApps"></div>
+
+            <div class="system-tray">
+                <span title="Everything is probably fine">☁️</span>
+                <span id="clock">00:00</span>
+                <button class="power-button" id="powerButton" title="Desktop options">⏻</button>
+            </div>
+        </footer>
+
+        <section class="start-menu" id="startMenu" aria-label="Start menu" hidden>
+            <div class="start-menu-heading">
+                <div class="start-avatar">🐣</div>
+                <div>
+                    <strong>Welcome to FLUX</strong>
+                    <p>Small OS. Big ambitions.</p>
+                </div>
+            </div>
+
+            <input
+                type="search"
+                id="appSearch"
+                placeholder="Find an app..."
+                autocomplete="off"
+                aria-label="Search applications"
+            >
+
+            <div class="start-apps" id="startApps"></div>
+
+            <div class="start-menu-footer">
+                <span>FLUX OS · Beginner Edition</span>
+                <button id="closeStartMenu" title="Close Start menu">✕</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
