@@ -1,59 +1,29 @@
-# 🌊 FLUX OS
+# FLUX-OS
 
-> A colorful, beginner-friendly desktop experience built for the web.
+FLUX-OS is a web-based desktop interface I made as a personal project. I wanted to create something that feels a little like using a real computer operating system, but runs in a web browser.
 
-FLUX OS is a mini desktop environment that runs directly in your browser. Explore a familiar desktop layout, open applications, customize your wallpaper, and enjoy a simple operating-system-inspired experience.
+## What is it?
 
-## ✨ Features
+It's a small web project made with HTML, CSS, and JavaScript. I worked on the design to make it look more like a desktop, with a clean interface, colors, and smooth transitions.
 
-* 🖥️ Interactive desktop environment
-* 🪟 Movable application windows
-* 📂 Simulated file manager
-* 📝 Notes with browser-based storage
-* 🌐 Browser shortcuts
-* 🎮 Built-in mini game
-* ⚙️ Desktop customization
-* 📌 Interactive taskbar
-* 🚀 Start menu with app search
-* 🕒 Live clock
-* 🎨 Colorful interface and smooth transitions
+## Features
 
-## 🛠️ Built With
+* Desktop-style interface
+* Visual design
+* Smooth animations
+* Style of modern operating systems
+* Runs in a web browser
 
-* HTML5
-* CSS3
+## Why I made it
+
+I wanted to try making something different from a normal website. I was interested in how operating systems look and work, so I decided to experiment with creating a similar experience on the web.
+
+## Languages I used
+
+* HTML
+* CSS
 * JavaScript
 
-## 📁 Project Structure
+## Running it
 
-```text
-FLUX-OS/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-## 🚀 Run Locally
-
-1. Download or clone this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your browser.
-
-For development, you can use the Live Server extension in Visual Studio Code.
-
-## 🌐 Live Demo
-
-Coming soon!
-
-## 🎯 Project Goal
-
-FLUX OS is a learning project exploring web development, desktop-style interfaces, and interactive browser applications.
-
-## 👨‍💻 Creator
-
-**Nefx**
-
-## 📜 License
-
-A license will be added in a future update.
+You can open the website in a browser and try it out!
